@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sagatos Cofrentes</title>
+  <link rel="shortcut icon" href="./imagenes/logo.ico">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script type="text/javascript" src="./js/vermas.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+      <a class="navbar-brand"><img src="./imagenes/logo.jpg" alt="Sagatos"></img></a>
+    </div>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="indexIngles.html">INICIO</a></li>
+        <li><a href="serviciosIngles.html">SERVICES</a></li>
+        <li><a href="contactoIngles.html">CONTACT</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Spanish</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <div class="container">
+     <h1> SAGATOS </h1>
+     <p>Enjoy the first popular fest of Cofrentes, where the children can enjoy the family next a bonfire</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="./imagenes/sagatos.jpg" alt="Carretillas">
+        <h4>Adults expiriences</h4>
+        <p>Here you can enjoy of the emotion of hundreds of "carretillas" flying arround you in a delimited space for your security.</p>
+        <p id="adultos" class="hidden">To do it you need to have the curse of fireworks of class 1.</p>
+        <button type="button" class="btn btn-sm" name="adultos" onclick="mostrar(this);"><span class="glyphicon glyphicon-plus"></span></button>
+      </div>
+      <div class="col-md-3">
+        <img src="./imagenes/sagatos3.jpg" alt="Sagato">
+        <h4>Sagatos for everyone</h4>
+        <p>Here you can make your own bonfire to enjoy it with you want, family, neighbors, friends...</p>
+        <p id="todos" class="hidden">The only thing that you have to do is to sign up in tourism office and tell then where are you gong to do it.</p>
+        <button type="button" class="btn btn-sm" name="todos" onclick="mostrar(this);"><span class="glyphicon glyphicon-plus"></span></button>
+      </div>
+      <div class="col-md-3">
+        <img src="./imagenes/correfocs.jpg" alt="Correfocs">
+        <h4>Experiences unforgettable</h4>
+        <p>Finally in Cofrentes you will enjoy the "correfocs" too.</p>
+        <p id="inolvidable" class="hidden">This is the first time that Cofrentes celebrates this event, with the people of Paterna with os</p>
+        <button type="button" class="btn btn-sm" name="inolvidable" onclick="mostrar(this);"><span class="glyphicon glyphicon-plus"></span></button>
+      </div>
+    </div>
+  </div>
+
+  <footer class='container-fluid text-center'>
+    <div class="row">
+      <div class="col-md-3">
+        <h4>Where are we?</h4>
+        <img src="./imagenes/mapa.jpg" alt="Mapa" id="mapa">
+      </div>
+      <div class="col-md-3">
+        <h4>Social networks</h4>
+        <p><img src="./imagenes/face.png" id="redes" alt="facebook"></img></p>
+        <p><img src="./imagenes/insta.png" id="redes" alt="instagram"></img></p>
+        <p><img src="./imagenes/twitter.png" id="redes" alt="twitter"></img></p>
+      </div>
+      <div class="col-md-3">
+        <h4>Contact</h4>
+        <p><span class="glyphicon glyphicon-envelope" id="contacto"></span>sagatos@gmail.com</p>
+        <p><span class="glyphicon glyphicon-phone" id="contacto"></span>624159834</p>
+        <p><span class="glyphicon glyphicon-map-marker" id="contacto"></span>Cofrentes (Valencia)</p>
+      </div>
+      <div class="col-md-3">
+        <img src="./imagenes/logo.jpg" alt="Logo de aventurate" id="logoFooter">
+        <br><br><br>
+        <p>&copy; 2018, Borja Molina</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+
+</html>

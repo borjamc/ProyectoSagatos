@@ -1,0 +1,101 @@
+body{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.navbar-brand img{
+  margin-top: -30px;
+  height: 65px;
+}
+.jumbotron {
+    background-image: url("../imagenes/sagato.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+}
+.jumbotron .container{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.jumbotron h1{
+  font-size: 45px;
+}
+
+nav{
+  padding-top: 15px;
+}
+
+.container .col-md-3{
+  background-color: #e7e7e7;
+  margin: 4%;
+  padding: 1%;
+}
+.col-md-3 img{
+  width: 100%;
+  margin-top: 5%;
+}
+footer{
+  background-color: #e7e7e7;
+}
+#redes{
+  height: 40px;
+  width: auto;
+}
+
+#contacto{
+  padding: 10px;
+}
+
+#logoFooter{
+  height: 100px;
+  width: auto;
+}
+
+#mapa{
+  height: 250px;
+  width: auto;
+}
+
+.hidden{
+  display: none;
+}
+.mostrar{
+  display: block;
+}
+form{
+  margin: 3%;
+}
+
+#row{
+  background-color: #F9FFDF;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 50%;
+  float: left;
+}
+#row img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 3%;
+}
+#row video{
+  width: 100%;
+  margin-bottom: 3%;
+}
+#row h2{
+  text-align: center;
+}
+#izquierda {
+  margin-left: 70%;
+}
+#derecha {
+  margin-left: 100%;
+}
+#todo{
+  margin-left: 100%;
+}
+#nada{
+  margin-left: 110%;
+}
