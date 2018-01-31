@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default" role="navigation">
+  <nav class="navbar navbar-default" role="navigation" id="navegador">
     <div class="navbar-header">
       <a class="navbar-brand"><img src="./imagenes/logo.jpg" alt="Sagatos"></img></a>
     </div>
@@ -39,21 +39,21 @@
     <div class="row">
       <div class="col-md-3">
         <img src="./imagenes/sagatos.jpg" alt="Carretillas">
-        <h4>Experiencias para adultos</h4>
+        <h2>Experiencias para adultos</h2>
         <p>Aqui podrias disfrutar de la emocion de cientos de carretillas volando a tu alrededor en un espacio delimitado para la seguridad.</p>
         <p id="adultos" class="hidden">Para ello tienes que tener el curos de petardos de clase 1.</p>
         <button type="button" class="btn btn-sm" name="adultos" onclick="mostrar(this);"><span class="glyphicon glyphicon-plus"></span></button>
       </div>
       <div class="col-md-3">
         <img src="./imagenes/sagatos3.jpg" alt="Sagato">
-        <h4>Sagatos para todos</h4>
+        <h2>Sagatos para todos</h2>
         <p>Aqui podras montar tu propia hoguera para disfrutarla con quien tu quieras, famila, vecinos, amigos...</p>
         <p id="todos" class="hidden">Solo tines que apuntarte en la oficina de turismo y decir donde la vas a hacer.</p>
         <button type="button" class="btn btn-sm" name="todos" onclick="mostrar(this);"><span class="glyphicon glyphicon-plus"></span></button>
       </div>
       <div class="col-md-3">
         <img src="./imagenes/correfocs.jpg" alt="Correfocs">
-        <h4>Experiencia inolvidable</h4>
+        <h2>Experiencia inolvidable</h2>
         <p>Porfin en Cofrentes tambien se celebra el tipico correfocs.</p>
         <p id="inolvidable" class="hidden">Primer año que se celevra este evento, con gente de Paterna con nosotros</p>
         <button type="button" class="btn btn-sm" name="inolvidable" onclick="mostrar(this);"><span class="glyphicon glyphicon-plus"></span></button>
@@ -64,22 +64,24 @@
   <footer class='container-fluid text-center'>
     <div class="row">
       <div class="col-md-3">
-        <h4>¿Donde estamos?</h4>
+        <h3>¿Donde estamos?</h3>
         <img src="./imagenes/mapa.jpg" alt="Mapa" id="mapa">
       </div>
       <div class="col-md-3">
-        <h4>Redes sociales</h4>
-        <p><img src="./imagenes/face.png" id="redes" alt="facebook"></img></p>
-        <p><img src="./imagenes/insta.png" id="redes" alt="instagram"></img></p>
+        <h3>Redes sociales</h3>
+        <p><img src="./imagenes/facebook.png" id="redes" alt="facebook"></img></p>
+        <p><img src="./imagenes/instagram.png" id="redes" alt="instagram"></img></p>
         <p><img src="./imagenes/twitter.png" id="redes" alt="twitter"></img></p>
       </div>
       <div class="col-md-3">
-        <h4>Contacto</h4>
+        <h3>Contacto</h3>
+        <br>
         <p><span class="glyphicon glyphicon-envelope" id="contacto"></span>sagatos@gmail.com</p>
         <p><span class="glyphicon glyphicon-phone" id="contacto"></span>624159834</p>
         <p><span class="glyphicon glyphicon-map-marker" id="contacto"></span>Cofrentes (Valencia)</p>
       </div>
       <div class="col-md-3">
+        <br><br>
         <img src="./imagenes/logo.jpg" alt="Logo de aventurate" id="logoFooter">
         <br><br><br>
         <p>&copy; 2018, Borja Molina</p>
